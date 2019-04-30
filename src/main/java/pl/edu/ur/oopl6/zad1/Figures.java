@@ -8,76 +8,76 @@ public class Figures {
      * Inicjalizator statyczny
      */
     static {
-        System.out.println("Biblioteka obliczaj¹ca wielkoœæ figur geometrycznych!!!");
+        System.out.println("Biblioteka obliczajÄ…ca wielkoÅ›Ä‡ figur geometrycznych!!!");
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca pole ko³a
+     * Metoda statyczna obliczajÄ…ca pole koÅ‚a
      */
     public static double FieldOfCircle(double r) {
         return Math.PI * Math.pow(r, 2);
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca obwód ko³a
+     * Metoda statyczna obliczajÄ…ca obwÃ³d koÅ‚a
      */
     public static double PerimeterOfCircle(double r) {
         return 2 * Math.PI * r;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca pole kwadratu
+     * Metoda statyczna obliczajÄ…ca pole kwadratu
      */
     public static double FieldOfSquare(double a) {
-        return a * a;
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca obwód kwadratu
+     * Metoda statyczna obliczajÄ…ca obwÃ³d kwadratu
      */
     public static double PerimeterOfSquare(double a) {
-        return 4 * a;
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca pole prosto¹ta
+     * Metoda statyczna obliczajÄ…ca pole prostoÄ…ta
      */
     public static double FieldOfRectangle(double a, double b) {
-        return a * b;
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca obwód prostok¹ta
+     * Metoda statyczna obliczajÄ…ca obwÃ³d prostokÄ…ta
      */
     public static double PerimeterOfRectangle(double a, double b) {
-        return a + a + b + b;
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca pole sto¿ka
+     * Metoda statyczna obliczajÄ…ca pole stoÅ¼ka
      */
     public static double FieldOfCone(double h, double r) {
-        return FieldOfCircle(r) * h / 3;
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca objêtoœæ sto¿ka
+     * Metoda statyczna obliczajÄ…ca objÄ™toÅ›Ä‡ stoÅ¼ka
      */
     public static double SizeOfCone(double h, double r) {
-        return FieldOfCircle(r) + (Math.PI * Math.sqrt(h * h + r * r) * r);
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca pole walca
+     * Metoda statyczna obliczajÄ…ca pole walca
      */
     public static double FieldOfCylinder(double h, double r) {
-        return 2 * FieldOfCircle(r) + (PerimeterOfCircle(r) * h);
+        return 0;
     }
 
     /**
-     * Metoda statyczna obliczaj¹ca objêtoœæ sto¿ka
+     * Metoda statyczna obliczajÄ…ca objÄ™toÅ›Ä‡ stoÅ¼ka
      */
     public static double SizeOfCylinder(double h, double r) {
-        return FieldOfCircle(r) * h;
+        return 0;
     }
 }
