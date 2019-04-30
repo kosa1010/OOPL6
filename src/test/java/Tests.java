@@ -22,14 +22,15 @@ public class Tests {
 
     @Test(timeout = 10000)
     public void testEx1Cone(){
-        Assert.assertEquals(190.0, Figures.FieldOfRectangle(5, 5), 5.0);
-        Assert.assertEquals(130.0, Figures.SizeOfCone(5, 5), 5.0);
+        Assert.assertEquals(190.0, Figures.SizeOfCone(5, 5), 2.0);
+        Assert.assertEquals(130.0, Figures.FieldOfCone(5, 5), 2.0);
+        
     }
 
     @Test(timeout = 10000)
     public void testEx1Cylinder(){
-        Assert.assertEquals(314.0, Figures.FieldOfRectangle(5, 5), 5.0);
-        Assert.assertEquals(392.0, Figures.SizeOfCone(5, 5), 5.0);
+        Assert.assertEquals(314.0, Figures.FieldOfCylinder(5, 5), 2.0);
+        Assert.assertEquals(392.0, Figures.SizeOfCylinder(5, 5), 2.0);
     }
 
     public Complex init(double re, double im){
@@ -115,50 +116,10 @@ public class Tests {
     }
 
     @Test(timeout = 10000)
-    public void testEx3ComplexSin(){
-        Complex a = init(5.0, 6.0);
-
-        Complex c = a.sin();
-
-        Assert.assertEquals(-193, c.getRe(), 0.5);
-        Assert.assertEquals(57, c.getIm(), 0.5);
-    }
-
-    @Test(timeout = 10000)
-    public void testEx3ComplexCos(){
-        Complex a = init(5.0, 6.0);
-
-        Complex c = a.cos();
-
-        Assert.assertEquals(57.0, Math.round(c.getRe()), 0);
-        Assert.assertEquals(193.0, Math.round(c.getIm()), 0);
-    }
-
-    @Test(timeout = 10000)
-    public void testEx3ComplexTan(){
-        Complex a = init(5.0, 6.0);
-
-        Complex c = a.tan();
-
-        Assert.assertEquals(0, Math.round(c.getRe()), 0);
-        Assert.assertEquals(1, Math.round(c.getIm()), 0);
-    }
-
-    @Test(timeout = 10000)
     public void testEx3ComplexAbs(){
         Complex a = init(5.0, 6.0);
 
         Assert.assertEquals(8, Math.round(a.abs()), 0);
-    }
-
-    @Test(timeout = 10000)
-    public void testEx3ComplexExp(){
-        Complex a = init(5.0, 6.0);
-
-        Complex c = a.exp();
-
-        Assert.assertEquals(143.0, Math.round(c.getRe()), 0);
-        Assert.assertEquals(-41.0, Math.round(c.getIm()), 0);
     }
 
     @Test(timeout = 10000)
