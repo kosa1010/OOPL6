@@ -5,6 +5,7 @@ package pl.edu.ur.oopl6.zad3;
 public class Complex implements ComplexInterface {
 
     public Complex(double re, double im) {
+
     }
 
     public double abs() {
@@ -12,14 +13,17 @@ public class Complex implements ComplexInterface {
     }
 
     public Complex plus(Complex b) {
+
         return null;
     }
 
     public Complex minus(Complex b) {
+
         return null;
     }
 
     public Complex times(Complex b) {
+
         return null;
     }
 
@@ -36,31 +40,14 @@ public class Complex implements ComplexInterface {
     }
 
     public Complex divides(Complex b) {
-        return null;
-    }
 
-    public Complex exp() {
-        return null;
-    }
-
-    public Complex sin() {
-        return null;
-    }
-
-    public Complex cos() {
-        return null;
-    }
-
-    public Complex tan() {
         return null;
     }
 
     public void setRe(double re) {
-
     }
 
     public void setIm(double im) {
-
     }
 
     public double getRe() {
@@ -69,5 +56,6 @@ public class Complex implements ComplexInterface {
 
     public double getIm() {
         return 0;
+
     }
 }
