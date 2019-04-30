@@ -12,10 +12,6 @@ public interface ComplexInterface {
     Complex conjugate();
     Complex reciprocal();
     Complex divides(Complex b);
-    Complex exp();
-    Complex sin();
-    Complex cos();
-    Complex tan();
     void setRe(double re);
     void setIm(double im);
     double getRe();
