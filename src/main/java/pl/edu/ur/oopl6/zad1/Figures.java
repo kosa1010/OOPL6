@@ -29,55 +29,55 @@ public class Figures {
      * Metoda statyczna obliczaj¹ca pole kwadratu
      */
     public static double FieldOfSquare(double a) {
-        return 0;
+        return a * a;
     }
 
     /**
      * Metoda statyczna obliczaj¹ca obwód kwadratu
      */
     public static double PerimeterOfSquare(double a) {
-        return 0;
+        return 4 * a;
     }
 
     /**
      * Metoda statyczna obliczaj¹ca pole prosto¹ta
      */
     public static double FieldOfRectangle(double a, double b) {
-        return 0;
+        return a * b;
     }
 
     /**
      * Metoda statyczna obliczaj¹ca obwód prostok¹ta
      */
     public static double PerimeterOfRectangle(double a, double b) {
-        return 0;
+        return a + a + b + b;
     }
 
     /**
      * Metoda statyczna obliczaj¹ca pole sto¿ka
      */
     public static double FieldOfCone(double h, double r) {
-        return 0;
+        return FieldOfCircle(r) * h / 3;
     }
 
     /**
      * Metoda statyczna obliczaj¹ca objêtoœæ sto¿ka
      */
     public static double SizeOfCone(double h, double r) {
-        return 0;
+        return FieldOfCircle(r) + (Math.PI * Math.sqrt(h * h + r * r) * r);
     }
 
     /**
      * Metoda statyczna obliczaj¹ca pole walca
      */
     public static double FieldOfCylinder(double h, double r) {
-        return 0;
+        return 2 * FieldOfCircle(r) + (PerimeterOfCircle(r) * h);
     }
 
     /**
      * Metoda statyczna obliczaj¹ca objêtoœæ sto¿ka
      */
     public static double SizeOfCylinder(double h, double r) {
-        return 0;
+        return FieldOfCircle(r) * h;
     }
 }
