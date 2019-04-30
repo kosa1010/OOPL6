@@ -139,10 +139,6 @@ Do klasy dodaj metody dokonujące obliczeń na tych liczbach tj:
 * `conjugate()` - sprzężenie
 * `reciprocal()` - odwrotność
 * `divides(Complex b)` - dzielenie (przez inną liczbę zespoloną)
-* `exp()` - metoda zwracająca wartość liczby zespolonej w funkcji expotencjalnej
-* `sin()` - metoda zwracająca wartość liczby zespolonej w postaci zapisu trygonometrycznego - sinus
-* `cos()` - metoda zwracająca wartość liczby zespolonej w postaci zapisu trygonometrycznego - cosinus
-* `tan()` - metoda zwracająca wartość liczby zespolonej w postaci zapisu trygonometrycznego - tangens
 
 Dodaj do klasy statyczne odpowiedniki tych metod:
 
