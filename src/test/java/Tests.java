@@ -22,8 +22,8 @@ public class Tests {
 
     @Test(timeout = 10000)
     public void testEx1Cone(){
-        Assert.assertEquals(190.0, Figures.SizeOfCone(5, 5), 2.0);
-        Assert.assertEquals(130.0, Figures.FieldOfCone(5, 5), 2.0);
+        Assert.assertEquals(130.0, Figures.SizeOfCone(5, 5), 2.0);
+        Assert.assertEquals(190.0, Figures.FieldOfCone(5, 5), 2.0);
         
     }
 
