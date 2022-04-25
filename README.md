@@ -60,7 +60,7 @@ public class StaticComponents {
 ```
 
 ## Zadanie 2
-Przetestuj i opisz działanie poniższego kodu źródłowego.
+Przetestuj i przeanalizuj działanie poniższego kodu źródłowego.
 
 ```java
 package pl.edu.ur.oopl6.zad2;
